@@ -2,7 +2,7 @@
 
 ## About the Project
 
-This project is developed in Java and performs database operations using MySQL. The user interface is built with Java Swing. It demonstrates basic database connection, data querying, and data presentation through a graphical user interface.
+This project is developed in Java and performs database operations using MySQL. The user interface is built with Java Swing. It demonstrates basic database connection, login function based on database, data querying, and data presentation through a graphical user interface.
 
 ## Features
 
@@ -34,7 +34,7 @@ This project is developed in Java and performs database operations using MySQL. 
 
 4. **Compile and Run:**
    - Build the project.
-   - Run the main class (the one containing the `main` method) to start the application.
+   - Run the FavoriteSites class (the one containing the `main` method) to start the application.
 
 ## Usage
 
