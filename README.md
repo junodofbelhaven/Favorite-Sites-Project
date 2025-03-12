@@ -23,7 +23,7 @@ This project is developed in Java and performs database operations using MySQL. 
    - Execute the SQL file included with the project on your MySQL server to create the required database and tables.
 
 2. **Update Database Connection Settings:**
-   - In the source code, locate the connection string line:
+   - In the source code, ConnectorSQL class, locate the connection string line:
      ```
      "jdbc:mysql://localhost:3306/sitesdatabase", "root", "asdbnm1122"
      ```
@@ -40,21 +40,5 @@ This project is developed in Java and performs database operations using MySQL. 
 
 Once the application starts, you can view data from the database through the Swing UI and perform various CRUD operations. Ensure that the database connection details are correctly configured before proceeding.
 
-## Contributing
 
-If you would like to contribute, please follow these steps:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b new-feature`).
-3. Commit your changes (`git commit -m "Add new feature"`).
-4. Push the branch (`git push origin new-feature`).
-5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE) file.
-
-## Contact
-
-If you encounter any issues or have suggestions, please open an issue in the repository.
-
-Happy coding!
